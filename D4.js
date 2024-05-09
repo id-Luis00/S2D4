@@ -178,9 +178,13 @@ console.log(upperFirst(frase))
  della stringa originale.
 */
 
-function cutString (stringa) {
+// metodo che elimina il primo e ultimo carattere? --->  .splice()
 
+function cutString (stringa) {
+    let newString = stringa.slice(1, -1);
+    return newString;
 } 
+console.log(cutString('edinson'))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
