@@ -192,4 +192,14 @@ console.log(cutString('edinson'))
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
+function giveMeRandom (n) {
+    let arrayNumCasuali = [];
+    for (i = 0; i < n; i++) {
+        arrayNumCasuali.push(Math.floor(Math.random() * 11))
+    }
+    console.log(arrayNumCasuali)
+}
+
+console.log(giveMeRandom(5))
+
 /* SCRIVI QUI LA TUA RISPOSTA */
